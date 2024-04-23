@@ -1,0 +1,30 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* abstracts */
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+/* Base */
+
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+/* Components */
+@import "components/buttons";
+@import "components/cards";
+@import "components/inputs";
+@import "components/logos";
+
+/* Layout */
+@import "layout/footer";
+@import "layout/form-registro";
+@import "layout/contact";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/skills-section";
+
+/* pages */
+
+@import "pages/home";

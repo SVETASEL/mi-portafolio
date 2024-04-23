@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+
+#inputName::placeholder,
+#InputSurname::placeholder,
+#InputEmail::placeholder {
+  color: $grey;
+}
+
+#InputText {
+  color: $grey;
+}

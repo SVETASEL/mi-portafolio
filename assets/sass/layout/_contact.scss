@@ -1,0 +1,22 @@
+@use "../abstracts/variables";
+
+.contact {
+  &__contacts-list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &p:hover {
+      color: $success;
+    }
+
+    & i {
+      font-size: $font32;
+      margin-right: 5px;
+    }
+  }
+}

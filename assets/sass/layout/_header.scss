@@ -1,0 +1,23 @@
+@use "../abstracts/variables";
+
+.header-container {
+  border-bottom: 1px solid $success;
+  background-color: $yellow-js;
+  opacity: 90%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  &__title {
+    font-family: $jersey-font;
+  }
+}

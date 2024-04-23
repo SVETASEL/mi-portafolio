@@ -1,0 +1,19 @@
+.footer-container {
+  border-top: 1px solid $grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  & p {
+    margin-left: auto;
+  }
+}
