@@ -3,7 +3,13 @@
 .contact {
   &__contacts-list {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    & p {
+      font-size: 14px;
+    }
   }
   &__item {
     display: flex;
@@ -15,7 +21,7 @@
     }
 
     & i {
-      font-size: $font32;
+      font-size: $font28;
       margin-right: 5px;
     }
   }

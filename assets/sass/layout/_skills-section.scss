@@ -14,4 +14,29 @@
       margin-right: 8px;
     }
   }
+  &__container {
+    border-bottom: 1px solid #c6c6c6;
+  }
+}
+
+.no-code img {
+  width: 60px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.no-code {
+  & .skills__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-right: 10px;
+    align-items: center;
+
+    & p {
+      font-size: $font14;
+    }
+  }
 }

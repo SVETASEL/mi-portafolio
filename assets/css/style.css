@@ -11911,6 +11911,10 @@ h4, .h4 {
   font-size: 20px;
 }
 
+.text-container {
+  border-bottom: 1px solid #c6c6c6;
+}
+
 /* Components */
 /* tipografía */
 .btn {
@@ -11988,7 +11992,10 @@ footer p {
 /* tipografía */
 .contact__contacts-list {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.contact__wrapper p {
+  font-size: 14px;
 }
 .contact__item {
   display: flex;
@@ -11999,7 +12006,7 @@ footer p {
   color: #198754;
 }
 .contact__item i {
-  font-size: 32px;
+  font-size: 28px;
   margin-right: 5px;
 }
 
@@ -12054,6 +12061,27 @@ footer p {
   height: auto;
   object-fit: cover;
   margin-right: 8px;
+}
+.skills__container {
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.no-code img {
+  width: 60px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.no-code .skills__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  align-items: center;
+}
+.no-code .skills__item p {
+  font-size: 14px;
 }
 
 /* pages */
