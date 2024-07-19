@@ -7,6 +7,7 @@
   font-size: $font20;
   font-weight: $font-bold;
   text-align: center;
+  border: 1px solid transparent;
 
   & a {
     color: $primary;
@@ -19,13 +20,25 @@
 
   &--yellow {
     background-color: $yellow-js;
+    border: 1px solid $yellow-js;
     & a {
       color: $white;
     }
     justify-content: center;
     &:hover {
       background-color: $white;
-      border: 2px solid $yellow-js;
+      border: 1px solid $yellow-js;
     }
+  }
+
+  &--custom {
+    background-color: $light-pinkish; /* Vibrant green background */
+    color: $pinkish; /* White text */
+    border-color: $light-pinkish; /* Same as background color for border */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  &--custom:hover {
+    background-color: $grey; /* White background on hover */
+    color: $teal-400; /* Green text on hover */
   }
 }

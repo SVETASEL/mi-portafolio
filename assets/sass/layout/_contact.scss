@@ -10,18 +10,22 @@
     & p {
       font-size: 14px;
     }
+    & a {
+      font-size: 14px;
+    }
   }
   &__item {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 
     &p:hover {
       color: $success;
     }
 
     & i {
-      font-size: $font28;
+      font-size: $font20;
       margin-right: 5px;
     }
   }

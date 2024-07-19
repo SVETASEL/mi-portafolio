@@ -1,6 +1,10 @@
 .card-img-top {
+  object-fit: contain;
+  height: 250px;
+}
+
+.cover {
   object-fit: cover;
-  height: 300px;
 }
 
 .card {

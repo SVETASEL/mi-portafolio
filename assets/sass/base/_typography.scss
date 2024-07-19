@@ -26,7 +26,11 @@ h4 {
 }
 .text-light {
   font-weight: $font-bold;
-  font-size: $font20;
+  font-size: $font16;
+}
+
+a .text-light:hover {
+  color: $pinkish;
 }
 
 .text-container {

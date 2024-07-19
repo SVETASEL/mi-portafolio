@@ -1,0 +1,11 @@
+@use "../abstracts/variables";
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff; /* Default color for nav links */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+  color: $light-pinkish; /* Green color for active and hover states */
+}
