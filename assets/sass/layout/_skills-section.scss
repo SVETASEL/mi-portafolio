@@ -6,31 +6,21 @@
     display: flex;
     margin-right: 10px;
     align-items: center;
-
-    & img {
-      width: 50px;
-      height: auto;
-      object-fit: cover;
-      margin-right: 8px;
-    }
   }
   &__container {
     border-bottom: 1px solid #c6c6c6;
   }
-}
-
-.no-code img {
-  width: 60px;
-  height: auto;
-  object-fit: cover;
-  margin-right: 8px;
+  & .skills-image {
+    width: 150px;
+    height: auto;
+  }
 }
 
 .no-code {
   & .skills__item {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     margin-right: 10px;
     align-items: center;
@@ -38,5 +28,10 @@
     & p {
       font-size: $font14;
     }
+  }
+
+  & .skills-image {
+    width: 150px;
+    height: auto;
   }
 }
